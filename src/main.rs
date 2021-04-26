@@ -23,7 +23,7 @@ fn main() {
 
         let list_quotes = format!("{} | {}", title.text(), author.text());
 
-        table.add_row(row![FdBybl->list_quotes]);
+        table.add_row(row![Fy->list_quotes]);
         // table.add_row(row![Fy->author]);
     }
     table.printstd();
