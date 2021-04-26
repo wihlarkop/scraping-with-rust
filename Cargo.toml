@@ -1,0 +1,13 @@
+[package]
+name = "scraping-with-rust"
+version = "0.1.0"
+authors = ["wihlarkop <wihlarko26@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+prettytable-rs = "^0.8"
+select = "0.5.0"
+scraper = "0.12.0"
+reqwest = { version = "0.11.3", features = ["blocking", "json"] }
